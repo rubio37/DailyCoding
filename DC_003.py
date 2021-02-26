@@ -6,6 +6,7 @@ class Node:
 		self.left = left
 		self.right = right
 
+
 def serialize(root):
 	if not root:
 		return None
